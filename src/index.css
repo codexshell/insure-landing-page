@@ -1,3 +1,13 @@
+/* font-families */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:ital,wght@0,700;1,400&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* add a flow utility class */
+@layer utilities {
+  .flow > * + * {
+    margin-top: var(--flow-space, 1em);
+  }
+}
