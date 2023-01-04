@@ -17,6 +17,9 @@ module.exports = {
         header: ["DM Serif Display", "serif"],
         body: ["Karla", "sans-serif"],
       },
+      backgroundImage: {
+        "mobile-nav-pattern": "url('/src/assets/bg-pattern-mobile-nav.svg')",
+      },
     },
   },
   plugins: [],
