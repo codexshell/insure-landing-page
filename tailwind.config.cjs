@@ -19,6 +19,8 @@ module.exports = {
       },
       backgroundImage: {
         "mobile-nav-pattern": "url('/src/assets/bg-pattern-mobile-nav.svg')",
+        "mobile-intro-left":
+          "url('/src/assets/bg-pattern-intro-left-mobile.svg')",
       },
     },
   },
