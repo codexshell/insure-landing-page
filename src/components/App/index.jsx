@@ -2,7 +2,7 @@ import MainNav from "../MainNav";
 
 function App() {
   return (
-    <div className="font-body">
+    <div className="font-body text-base">
       <MainNav />
     </div>
   );
