@@ -14,7 +14,7 @@ module.exports = {
         "body-copy": "16px",
       },
       fontFamily: {
-        headings: ["DM Serif Display", "serif"],
+        header: ["DM Serif Display", "serif"],
         body: ["Karla", "sans-serif"],
       },
     },
