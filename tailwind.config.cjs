@@ -19,8 +19,10 @@ module.exports = {
       },
       backgroundImage: {
         "mobile-nav-pattern": "url('/src/assets/bg-pattern-mobile-nav.svg')",
-        "mobile-intro-left":
+        "mobile-intro-left-pattern":
           "url('/src/assets/bg-pattern-intro-left-mobile.svg')",
+        "mobile-intro-right-pattern":
+          "url('/src/assets/bg-pattern-intro-right-mobile.svg')",
       },
     },
   },
