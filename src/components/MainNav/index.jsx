@@ -1,6 +1,7 @@
 import { useState } from "react";
 import iconCloseUrl from "../../assets/icon-close.svg";
 import iconsOpenUrl from "../../assets/icon-hamburger.svg";
+import logoUrl from "../../assets/logo.svg";
 
 const navItems = ["how we work", "blog", "account", "view plans"];
 
@@ -9,11 +10,9 @@ export default function MainNav() {
 
   return (
     <nav>
-      <div className="flex justify-between p-6">
+      <div className="flex justify-between p-6 items-center">
         <a href="#">
-          <h1 className="font-header font-bold text-3xl tracking-wider">
-            INSURE
-          </h1>
+          <img src={logoUrl} alt="Insure logo" />
         </a>
 
         <div className="cursor-pointer" onClick={() => setIsOpen(!drawerOpen)}>
