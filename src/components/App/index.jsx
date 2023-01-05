@@ -6,9 +6,10 @@ function App() {
     <div className="font-body text-base">
       <header>
         <MainNav />
-        <Hero />
       </header>
-      <main></main>
+      <main>
+        <Hero />
+      </main>
       <footer></footer>
     </div>
   );
