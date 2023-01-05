@@ -27,7 +27,7 @@ export default function MainNav() {
 
       {drawerOpen && (
         <div className="bg-n-very-dark-violet bg-mobile-nav-pattern bg-no-repeat bg-bottom">
-          <ul className="flex flex-col items-center text-n-very-light-gray py-10 px-4 gap-2 min-h-screen">
+          <ul className="flex flex-col items-center text-n-very-light-gray py-10 px-4 gap-2 min-h-[75vh]">
             {navItems.map((item) => (
               <li className="uppercase text-xl w-full text-center">
                 <a
