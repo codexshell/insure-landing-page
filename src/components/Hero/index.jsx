@@ -10,7 +10,7 @@ export default function () {
 
       <div className="px-5 py-28 text-n-very-light-gray text-center bg-mobile-intro-left-pattern bg-no-repeat">
         <h1 className="font-header text-5xl">Humanitizing your insurance.</h1>
-        <p className="mt-6 font-normal mb-6">
+        <p className="mt-6 font-normal mb-8">
           Get your life insurance coverage easier and faster. We blend our
           expertise and technology to help you find the plan that's right for
           you. Ensure you and your loved ones are protected.
