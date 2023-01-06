@@ -6,7 +6,7 @@ export default function Features() {
     <section className="text-center py-32 px-[18px]">
       <hr className="border-t border-p-dark-violet bg-p-dark-violet w-44 mx-auto" />
 
-      <h1 className="font-header text-5xl mt-10">We're different</h1>
+      <h2 className="font-header text-5xl mt-10">We're different</h2>
 
       <div className="mt-20">
         {features.map((feature) => (
