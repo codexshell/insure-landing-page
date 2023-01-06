@@ -23,6 +23,8 @@ module.exports = {
           "url('/src/assets/bg-pattern-intro-left-mobile.svg')",
         "mobile-intro-right-pattern":
           "url('/src/assets/bg-pattern-intro-right-mobile.svg')",
+        "mobile-how-we-work-bg-pattern":
+          "url('/src/assets/bg-pattern-how-we-work-mobile.svg')",
       },
     },
   },
