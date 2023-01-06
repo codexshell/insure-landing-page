@@ -69,6 +69,7 @@ const className = ["class1", "class2", condition && "class3"];
 ### Useful resources
 
 - [Add CSS Classes Conditionally in React](https://codefrontend.com/set-class-conditionally-react/) - This helped me ina adding classes conditionally in react. I really liked this pattern and will use it going forward.
+- [Adding custom styles in tailwindcss using arbitrary values](https://tailwindcss.com/docs/adding-custom-styles#using-arbitrary-values) - This allowed me to use css pseudo-classes with tailwind
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
