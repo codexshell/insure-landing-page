@@ -9,7 +9,7 @@ function App() {
       <header>
         <MainNav />
       </header>
-      <main>
+      <main className="pb-36">
         <Hero />
         <Features />
         <Banner />
