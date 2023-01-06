@@ -1,5 +1,6 @@
 import MainNav from "../MainNav";
 import Hero from "../Hero";
+import Features from "../Features";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       </header>
       <main>
         <Hero />
+        <Features />
       </main>
       <footer></footer>
     </div>
