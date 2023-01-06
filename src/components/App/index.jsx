@@ -1,6 +1,7 @@
 import MainNav from "../MainNav";
 import Hero from "../Hero";
 import Features from "../Features";
+import Banner from "../Banner";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main>
         <Hero />
         <Features />
+        <Banner />
       </main>
       <footer></footer>
     </div>
