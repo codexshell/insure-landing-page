@@ -10,7 +10,7 @@ export default function Features() {
 
       <div className="mt-20">
         {features.map((feature) => (
-          <Feature feature={feature} />
+          <Feature feature={feature} key={feature.name} />
         ))}
       </div>
     </section>
