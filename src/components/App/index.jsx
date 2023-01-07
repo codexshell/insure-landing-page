@@ -2,6 +2,7 @@ import MainNav from "../MainNav";
 import Hero from "../Hero";
 import Features from "../Features";
 import Banner from "../Banner";
+import Footer from "../Footer";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         <Features />
         <Banner />
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
