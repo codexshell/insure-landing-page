@@ -11,13 +11,13 @@ function App() {
       <header>
         <MainNav />
       </header>
-      <main className="pb-36">
-        <div className="absolute right-0 top-[110%]">
-          <img src={mobileIntroRightPatternUrl} alt="" />
-        </div>
+      <main className="pb-36 relative">
         <Hero />
         <Features />
         <Banner />
+        <div className="absolute top-[30%] right-0">
+          <img src={mobileIntroRightPatternUrl} alt="" />
+        </div>
       </main>
       <footer>
         <Footer />
