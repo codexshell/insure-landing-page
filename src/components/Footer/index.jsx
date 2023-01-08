@@ -12,10 +12,8 @@ export default function Footer() {
         {/* social icons */}
         <div className="flex gap-8">
           {socialIcons.map(({ imgUrl }) => (
-            <div key={imgUrl}>
-              <a href="#">
+            <div className="cursor-pointer hover:brightness-0" key={imgUrl}>
                 <img src={imgUrl} alt="" />
-              </a>
             </div>
           ))}
         </div>
@@ -35,7 +33,9 @@ export default function Footer() {
             <ul className="mt-6">
               {links.map((link) => (
                 <li className="mt-2" key={link}>
-                  <a href="#" className="hover:underline">{link}</a>
+                  <a href="#" className="hover:underline">
+                    {link}
+                  </a>
                 </li>
               ))}
             </ul>
