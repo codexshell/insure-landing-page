@@ -2,7 +2,7 @@ import mobileIntroImage from "../../assets/image-intro-mobile.jpg";
 import Button from "../Button";
 import desktopIntroLeftBgPattern from "../../assets/bg-pattern-intro-right-desktop.svg";
 
-export default function () {
+export default function Hero () {
   return (
     <div className="bg-p-dark-violet relative">
       <div className="absolute top-0 right-0 hidden sm:block">
