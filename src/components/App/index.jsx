@@ -11,7 +11,7 @@ function App() {
       <header>
         <MainNav />
       </header>
-      <main className="pb-36 relative">
+      <main className="container pb-36 relative">
         <Hero />
         <div className="sm:px-36 md:px-48">
           <Features />
