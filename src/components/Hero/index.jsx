@@ -1,12 +1,11 @@
 import mobileIntroImage from "../../assets/image-intro-mobile.jpg";
 import Button from "../Button";
 import desktopIntroLeftBgPattern from "../../assets/bg-pattern-intro-right-desktop.svg";
-import desktopIntroImage from "../../assets/image-intro-desktop.jpg";
 
 export default function () {
   return (
     <div className="bg-p-dark-violet relative sm:px-16">
-      <div className="absolute top-0 right-0">
+      <div className="absolute top-0 right-0 hidden sm:block">
         <img src={desktopIntroLeftBgPattern} alt="" />
       </div>
       <div>
