@@ -4,7 +4,7 @@ import desktopIntroLeftBgPattern from "../../assets/bg-pattern-intro-right-deskt
 
 export default function () {
   return (
-    <div className="bg-p-dark-violet relative sm:px-16">
+    <div className="bg-p-dark-violet relative">
       <div className="absolute top-0 right-0 hidden sm:block">
         <img src={desktopIntroLeftBgPattern} alt="" />
       </div>
@@ -16,7 +16,7 @@ export default function () {
         />
       </div>
 
-      <div className="px-5 py-28 text-n-very-light-gray text-center bg-mobile-intro-left-pattern bg-no-repeat sm:bg-none">
+      <div className="px-5 sm:px-32 py-28 text-n-very-light-gray text-center bg-mobile-intro-left-pattern bg-no-repeat sm:bg-none">
         <h1 className="font-header text-5xl">Humanitizing your insurance.</h1>
         <p className="mt-6 font-normal mb-8">
           Get your life insurance coverage easier and faster. We blend our
