@@ -35,7 +35,7 @@ export default function Footer() {
             <ul className="mt-6">
               {links.map((link) => (
                 <li className="mt-2" key={link}>
-                  <a href="#">{link}</a>
+                  <a href="#" className="hover:underline">{link}</a>
                 </li>
               ))}
             </ul>
