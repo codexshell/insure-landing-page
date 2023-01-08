@@ -5,7 +5,7 @@ export default function () {
   return (
     <div className="bg-p-dark-violet">
       <div>
-        <img src={mobileImageIntro} alt="an image of a family walking" />
+        <img className="mx-auto" src={mobileImageIntro} alt="an image of a family walking" />
       </div>
 
       <div className="px-5 py-28 text-n-very-light-gray text-center bg-mobile-intro-left-pattern bg-no-repeat">
