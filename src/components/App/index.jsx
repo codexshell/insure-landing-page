@@ -13,7 +13,7 @@ function App() {
       </header>
       <main className="container pb-36 relative">
         <Hero />
-        <div className="sm:px-36 md:px-48">
+        <div className="sm:px-36 md:px-48 lg:px-80">
           <Features />
           <Banner />
         </div>
