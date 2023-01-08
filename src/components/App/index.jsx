@@ -13,8 +13,10 @@ function App() {
       </header>
       <main className="pb-36 relative">
         <Hero />
-        <Features />
-        <Banner />
+        <div className="sm:px-36">
+          <Features />
+          <Banner />
+        </div>
         <div className="absolute top-[30%] right-0">
           <img src={mobileIntroRightPatternUrl} alt="" />
         </div>
