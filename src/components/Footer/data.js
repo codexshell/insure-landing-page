@@ -18,11 +18,16 @@ export const others = {
   links: ["careers", "press", "licenses"],
 };
 
+import facebookImgUrl from "/src/assets/icon-facebook.svg";
+import twitterImgUrl from "/src/assets/icon-twitter.svg";
+import pinterestImgUrl from "/src/assets/icon-pinterest.svg";
+import instaImgUrl from "/src/assets/icon-instagram.svg";
+
 export const socialIcons = [
-  { imgUrl: "/src/assets/icon-facebook.svg" },
-  { imgUrl: "/src/assets/icon-twitter.svg" },
-  { imgUrl: "/src/assets/icon-pinterest.svg" },
-  { imgUrl: "/src/assets/icon-instagram.svg" },
+  { imgUrl: facebookImgUrl },
+  { imgUrl: twitterImgUrl },
+  { imgUrl: pinterestImgUrl },
+  { imgUrl: instaImgUrl },
 ];
 
 const data = [ourCompany, helpMe, contact, others];
