@@ -7,7 +7,7 @@ import mobileIntroRightPatternUrl from "../../assets/bg-pattern-intro-right-mobi
 
 function App() {
   return (
-    <div className="container mx-auto font-body text-base">
+    <div className="2xl:container mx-auto font-body text-base">
       <header>
         <MainNav />
       </header>
