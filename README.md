@@ -26,15 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./screenshot.png)
 
 ### Links
 
@@ -70,10 +62,9 @@ const className = ["class1", "class2", condition && "class3"];
 
 - [Add CSS Classes Conditionally in React](https://codefrontend.com/set-class-conditionally-react/) - This helped me ina adding classes conditionally in react. I really liked this pattern and will use it going forward.
 - [Adding custom styles in tailwindcss using arbitrary values](https://tailwindcss.com/docs/adding-custom-styles#using-arbitrary-values) - This allowed me to use css pseudo-classes with tailwind
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
 - Website - [Silvanos Eric](https://codexshell.github.io/)
 - Frontend Mentor - [@codexshell](https://www.frontendmentor.io/profile/codexshell)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@codexshell](https://twitter.com/codexshell)
