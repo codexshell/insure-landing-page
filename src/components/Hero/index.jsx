@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="xl:flex flex-col xl:basis-1/2 xl:p-0 px-5 sm:px-32 md:px-48 lg:px-80 py-28 text-n-very-light-gray text-center xl:text-start bg-mobile-intro-left-pattern bg-no-repeat sm:bg-none">
         <hr className="hidden xl:block border-t-1 border-n-very-light-gray w-40" />
         <h1 className="font-header text-5xl xl:text-7xl xl:mt-16">Humanitizing your insurance.</h1>
-        <p className="mt-6 font-normal mb-8">
+        <p className="mt-6 font-normal mb-8 xl:w-2/3">
           Get your life insurance coverage easier and faster. We blend our
           expertise and technology to help you find the plan that's right for
           you. Ensure you and your loved ones are protected.
