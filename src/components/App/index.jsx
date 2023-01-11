@@ -17,11 +17,11 @@ function App() {
         <div className="hidden xl:block absolute top-[500px]">
           <img src={introLeftBgPattern} alt="" />
         </div>
-        <div className="sm:px-36 md:px-48 lg:px-80">
+        <div className="sm:px-36 md:px-48 lg:px-80 xl:px-36 xl:py-56">
           <Features />
           <Banner />
         </div>
-        <div className="absolute top-[30%] right-0">
+        <div className="absolute top-[30%] right-0 xl:hidden">
           <img src={mobileIntroRightPatternUrl} alt="" />
         </div>
       </main>
