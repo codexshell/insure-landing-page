@@ -13,7 +13,7 @@ export default function Hero() {
         <img
           className="mx-auto xl:absolute right-0"
           srcSet={`${mobileIntroImage} 375w, ${desktopIntroImage} 540w`}
-          sizes="(max-width: 600px) 480px,
+          sizes="(max-width: 1000px) 375px,
                   540px"
           src={mobileIntroImage}
           alt="an image of a family walking"
