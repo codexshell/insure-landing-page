@@ -25,9 +25,7 @@ function App() {
           <img src={mobileIntroRightPatternUrl} alt="" />
         </div>
       </main>
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </div>
   );
 }

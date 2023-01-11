@@ -29,6 +29,8 @@ module.exports = {
           "url('/src/assets/bg-pattern-footer-mobile.svg')",
         "desktop-how-we-work-bg-pattern":
           "url('/src/assets/bg-pattern-how-we-work-desktop.svg')",
+        "desktop-footer-bg-pattern":
+          "url('/src/assets/bg-pattern-footer-desktop.svg')",
       },
     },
   },
