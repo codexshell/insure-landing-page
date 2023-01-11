@@ -1,6 +1,6 @@
 export default function Feature({ feature }) {
   return (
-    <div className="[&:not(:first-child)]:mt-14 [&:not(:first-child)]:xl:mt-0 basis-1/2">
+    <div className="[&:not(:first-child)]:mt-14 xl:[&:not(:first-child)]:mt-0 basis-1/2">
       <div className="inline-block">
         <img src={feature.img} alt="" />
       </div>
