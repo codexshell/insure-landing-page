@@ -17,7 +17,7 @@ function App() {
         <div className="hidden xl:block absolute top-[500px]">
           <img src={introLeftBgPattern} alt="" />
         </div>
-        <div className="sm:px-36 md:px-48 lg:px-80 xl:px-36 xl:py-56">
+        <div className="sm:px-36 md:px-48 lg:px-80 xl:px-36 xl:pt-56">
           <Features />
           <Banner />
         </div>
